@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T05:13:16.437Z",
+  "generated_at": "2026-10-12T07:49:57.419Z",
   "items": {
     "problem:17": {
       "kind": "problem",
@@ -104,6 +104,19 @@
       "last_pushed_at": "2026-10-12T05:13:15.827Z",
       "language": "python",
       "lines": 37
+    },
+    "problem:817": {
+      "kind": "problem",
+      "id": "817",
+      "title": "Multinomial Naive Bayes Classifier",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/817",
+      "path": "problems/0817-multinomial-naive-bayes-classifier",
+      "first_solved_at": "2026-10-12T07:49:56.693Z",
+      "last_pushed_at": "2026-10-12T07:49:56.693Z",
+      "language": "python",
+      "lines": 35
     }
   }
 }

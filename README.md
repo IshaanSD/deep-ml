@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**8** solved · 8 problems · 0 labs · 0 math
+**9** solved · 9 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -18,6 +18,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Gaussian Naive Bayes Classifier](https://www.deep-ml.com/problems/261) | medium | 2026-10-12 | [solution](problems/0261-gaussian-naive-bayes-classifier) |
 | [Implement Self-Attention Mechanism](https://www.deep-ml.com/problems/53) | medium | 2026-09-30 | [solution](problems/0053-implement-self-attention-mechanism) |
 | [K-Means Clustering](https://www.deep-ml.com/problems/17) | medium | 2026-09-26 | [solution](problems/0017-k-means-clustering) |
+| [Multinomial Naive Bayes Classifier](https://www.deep-ml.com/problems/817) | medium | 2026-10-12 | [solution](problems/0817-multinomial-naive-bayes-classifier) |
 | [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-09-30 | [solution](problems/0025-single-neuron-with-backpropagation) |
 | [Implementing a Custom Dense Layer in Python](https://www.deep-ml.com/problems/40) | hard | 2026-09-30 | [solution](problems/0040-implementing-a-custom-dense-layer-in-python) |
 
