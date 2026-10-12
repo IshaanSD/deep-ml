@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T07:49:57.419Z",
+  "generated_at": "2026-10-12T07:59:11.138Z",
   "items": {
     "problem:17": {
       "kind": "problem",
@@ -117,6 +117,17 @@
       "last_pushed_at": "2026-10-12T07:49:56.693Z",
       "language": "python",
       "lines": 35
+    },
+    "math:106": {
+      "kind": "math",
+      "id": "106",
+      "title": "Naive Bayes and the Conditional Independence Assumption",
+      "difficulty": "medium",
+      "category": "Statistical Modeling",
+      "url": "https://www.deep-ml.com/math-problems/106",
+      "path": "math/0106-naive-bayes-and-the-conditional-independence-assumption",
+      "first_solved_at": "2026-10-12T07:59:10.347Z",
+      "last_pushed_at": "2026-10-12T07:59:10.347Z"
     }
   }
 }
