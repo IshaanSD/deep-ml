@@ -16,10 +16,9 @@ def k_means_clustering(points: list[tuple[float, ...]], k: int, initial_centroid
 		centroids_sums[nearest_centroid] += np.array(point)
 		centroids_nums[nearest_centroid] += 1
 
-	centroid_means = np.array([centroids_sums[centroid] for centroid in centroids_sums])
-	centroid_means /= np.array([centroids_nums[centroid] for centroid in centroids_nums]).reshape(-1,1)
+	centroid_means = np.array([centroids_sums[centroid]/max(centroids_nums[centroid],1) for centroid in centroids_sums])
 	centroid_means = centroid_means.round(2)
-	
+
 	centroid_means = [tuple(centroid_mean) for centroid_mean in centroid_means]
 	final_centroids =  k_means_clustering(points, k, centroid_means, max_iterations-1)
 
