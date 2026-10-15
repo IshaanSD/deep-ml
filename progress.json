@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T07:59:11.138Z",
+  "generated_at": "2026-10-15T20:14:58.581Z",
   "items": {
     "problem:17": {
       "kind": "problem",
@@ -128,6 +128,19 @@
       "path": "math/0106-naive-bayes-and-the-conditional-independence-assumption",
       "first_solved_at": "2026-10-12T07:59:10.347Z",
       "last_pushed_at": "2026-10-12T07:59:10.347Z"
+    },
+    "problem:20": {
+      "kind": "problem",
+      "id": "20",
+      "title": "Decision Tree Learning",
+      "difficulty": "hard",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/20",
+      "path": "problems/0020-decision-tree-learning",
+      "first_solved_at": "2026-10-15T20:14:58.000Z",
+      "last_pushed_at": "2026-10-15T20:14:58.000Z",
+      "language": "python",
+      "lines": 45
     }
   }
 }
