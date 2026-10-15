@@ -4,7 +4,7 @@ def k_means_clustering(points: list[tuple[float, ...]], k: int, initial_centroid
 	m,n = len(points), len(points[0])
 	if max_iterations == 0: return initial_centroids
 	def calc_dist(p1: tuple[float], p2: tuple[float]):
-		return (((np.array(p1) - np.array(p2))**2).sum())**(len(p1))
+		return (((np.array(p1) - np.array(p2))**2).sum())**(1/2)
 	
 	centroids_sums = {centroid:np.zeros(n) for centroid in initial_centroids}
 	centroids_nums = {centroid:0 for centroid in initial_centroids}
