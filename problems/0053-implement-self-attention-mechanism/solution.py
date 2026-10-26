@@ -10,8 +10,8 @@ def compute_qkv(X, W_q, W_k, W_v):
 e = 0
 
 def softmax(x):
-    exp_scores = np.exp(x - x.max())
-    return exp_scores / (exp_scores.sum(axis = 1, keepdims = True) + e)
+    exp_scores = np.exp(x - x.max(axis = -1, keepdims = True))
+    return exp_scores / (exp_scores.sum(axis = -1, keepdims = True) + e)
 
 def self_attention(Q, K, V):
     """
